@@ -172,10 +172,10 @@
                                 </div>
                                 <div class="detail">
                                     <h1 class="title">
-                                        <a href="car-details.html">{{ car.car_name }}</a>
+                                        <a href="{% url 'car_details' car.id %}">{{ car.car_name }}</a>
                                     </h1>
                                     <div class="location">
-                                        <a href="car-details.html">
+                                        <a href="{% url 'car_details' car.id %}">
                                             <i class="flaticon-pin"></i>{{ car.state }}, {{ car.city }}
                                         </a>
                                     </div>
@@ -218,7 +218,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="car-box">
                         <div class="car-thumbnail">
-                            <a href="car-details.html" class="car-img">
+                            <a href="{% url 'car_details' car.id %}" class="car-img">
                                 <div class="tag">For Sale</div>
                                 <img class="d-block w-100" src="{{ car.featured_photo.url }}" style="min-height: 262px; max-height: 262px;" alt="car">
                                 <div class="facilities-list clearfix">
@@ -271,10 +271,10 @@
                         </div>
                         <div class="detail">
                             <h1 class="title">
-                                <a href="car-details.html">{{ car.car_name }}</a>
+                                <a href="{% url 'car_details' car.id %}">{{ car.car_name }}</a>
                             </h1>
                             <div class="location">
-                                <a href="car-details.html">
+                                <a href="{% url 'car_details' car.id %}">
                                     <i class="flaticon-pin"></i>{{ car.state }}, {{ car.city }}
                                 </a>
                             </div>
@@ -284,7 +284,7 @@
                                 <p class="cartype">{{ car.body_style }}</p>
                             </div>
                             <div class="pull-right">
-                                <p class="price">${{ car.price | intcomma}}</p>
+                                <p class="price">${{ car.price }}</p>
                             </div>
                         </div>
                     </div>

@@ -98,7 +98,7 @@ class Car(models.Model):
     car_photo_2 = models.ImageField(upload_to="photos/%Y/%m/%d/", blank=True)
     car_photo_3 = models.ImageField(upload_to="photos/%Y/%m/%d/", blank=True)
     car_photo_4 = models.ImageField(upload_to="photos/%Y/%m/%d/", blank=True)
-    features = MultiSelectField(choices=features_choices, max_length=100)
+    features = MultiSelectField(choices=features_choices, max_length=250)
     body_style = models.CharField(max_length=100)
     engine = models.CharField(max_length=100)
     transmission = models.CharField(max_length=100)
