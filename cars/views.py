@@ -78,4 +78,4 @@ def search(request):
         'model_search': model_search,
         'transmission_search': transmission_search,
     }
-    return render(request, 'pages/search.html', data)
+    return render(request, 'cars/search.html', data)
