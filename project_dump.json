@@ -1,0 +1,621 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_name": "2017 Ferrari 488 GTB",
+        "state": "AZ",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": "80000",
+        "description": "<p>The 2017 Ferrari 488GTB is a stunningly beautiful and high-performance sports car that represents the pinnacle of Italian automotive engineering. It features a sleek and aerodynamic design with a low-slung stance, aggressive lines, and signature Ferrari styling cues such as the iconic prancing horse emblem on the grille. Under the hood, the 488GTB is powered by a mid-mounted 3.9-liter V8 engine that produces an astonishing 661 horsepower and 561 pound-feet of torque, making it one of the most powerful vehicles in its class.</p>",
+        "featured_photo": "photos/2023/05/10/1902536891.jpg",
+        "car_photo_1": "photos/2023/05/10/1902536917.jpg",
+        "car_photo_2": "photos/2023/05/10/1902537043.jpg",
+        "car_photo_3": "photos/2023/05/10/1902537077.jpg",
+        "car_photo_4": "photos/2023/05/10/1902537082.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Alarm System",
+        "body_style": "Sport",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 10000,
+        "doors": "2",
+        "passengers": 2,
+        "vehicle_num": "WPQAB2E81EK1788547",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "num_of_owner": "1",
+        "is_featured": true,
+        "created_date": "2023-05-10T13:40:03"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_name": "2017 Ford Edge",
+        "state": "CA",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": "50000",
+        "description": "<p>The 2017 Ford Edge is a midsize crossover SUV that offers a spacious and comfortable interior, a smooth ride, and a range of features that make it a solid choice for families or individuals who prioritize comfort and convenience.</p>\r\n\r\n<p>Under the hood, the 2017 Edge comes with three engine options, including a standard 2.0-liter four-cylinder turbocharged engine that produces 245 horsepower and 275 lb-ft of torque, a 3.5-liter V6 engine that delivers 280 horsepower and 250 lb-ft of torque, and a 2.7-liter V6 EcoBoost engine that generates 315 horsepower and 350 lb-ft of torque.</p>",
+        "featured_photo": "photos/2023/05/10/1901478607.jpg",
+        "car_photo_1": "photos/2023/05/10/1901478618.jpg",
+        "car_photo_2": "photos/2023/05/10/1901478646.jpg",
+        "car_photo_3": "photos/2023/05/10/1901478672.jpg",
+        "car_photo_4": "photos/2023/05/10/1901478687.jpg",
+        "features": "Cruise Control,Audio Interface,Seat Heating,Alarm System,Reversing Camera,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vehicle_num": "TPQAB2E81EG1788510",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "num_of_owner": "2",
+        "is_featured": true,
+        "created_date": "2023-05-10T13:51:39"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_name": "2017 Ford F-250 Super Duty",
+        "state": "HI",
+        "city": "Ohio",
+        "color": "Black",
+        "model": "F-250 Super Duty",
+        "year": 2017,
+        "condition": "Used",
+        "price": "45000",
+        "description": "<p>The 2017 Ford F-250 Super Duty is a heavy-duty pickup truck designed to handle tough jobs and demanding workloads. It comes with a powerful engine, robust towing capabilities, and a range of features that make it a versatile and reliable workhorse.</p>\r\n\r\n<p>Under the hood, the 2017 F-250 Super Duty is equipped with a 6.2-liter V8 engine that produces 385 horsepower and 430 lb-ft of torque. It is paired with a six-speed automatic transmission and can be configured with either rear-wheel or four-wheel drive. For those who require even more power, there is an optional 6.7-liter turbodiesel V8 engine that churns out 440 horsepower and an impressive 925 lb-ft of torque.</p>",
+        "featured_photo": "photos/2023/05/10/1894300905.jpg",
+        "car_photo_1": "photos/2023/05/10/1894300894.jpg",
+        "car_photo_2": "photos/2023/05/10/1894300920.jpg",
+        "car_photo_3": "photos/2023/05/10/1900155012.jpg",
+        "car_photo_4": "photos/2023/05/10/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "pickup",
+        "engine": "3.4L Mid-Engine V8",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 25000,
+        "doors": "4",
+        "passengers": 8,
+        "vehicle_num": "RAQAB2E81EK1984121",
+        "milage": 10,
+        "fuel_type": "Petrol",
+        "num_of_owner": "1",
+        "is_featured": true,
+        "created_date": "2023-05-10T13:55:08"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_name": "2017 Jaguar F-PACE",
+        "state": "WA",
+        "city": "New Jersey",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": "5000",
+        "description": "<p>The 2017 Ford F-250 Super Duty is a heavy-duty pickup truck designed to handle tough jobs and demanding workloads. It comes with a powerful engine, robust towing capabilities, and a range of features that make it a versatile and reliable workhorse.</p>\r\n\r\n<p>Under the hood, the 2017 F-250 Super Duty is equipped with a 6.2-liter V8 engine that produces 385 horsepower and 430 lb-ft of torque. It is paired with a six-speed automatic transmission and can be configured with either rear-wheel or four-wheel drive. For those who require even more power, there is an optional 6.7-liter turbodiesel V8 engine that churns out 440 horsepower and an impressive 925 lb-ft of torque.</p>",
+        "featured_photo": "photos/2023/05/10/1902932542.jpg",
+        "car_photo_1": "photos/2023/05/10/1902932528.jpg",
+        "car_photo_2": "photos/2023/05/10/1902932514.jpg",
+        "car_photo_3": "photos/2023/05/10/1902932503.jpg",
+        "car_photo_4": "photos/2023/05/10/1902932528_OdmjxZI.jpg",
+        "features": "Airbags,Air Conditioning",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V8",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 6000,
+        "doors": "4",
+        "passengers": 10,
+        "vehicle_num": "ZXSQAB2E81EK17210",
+        "milage": 10,
+        "fuel_type": "Petrol",
+        "num_of_owner": "1",
+        "is_featured": true,
+        "created_date": "2023-05-10T13:59:43"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Manager",
+        "photo": "photos/2023/05/09/avatar-11.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.googleplus.com",
+        "created_date": "2023-05-09T16:10:33.947"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Web Developer",
+        "photo": "photos/2023/05/09/avatar-1.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.googleplus.com",
+        "created_date": "2023-05-09T16:11:41.581"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2023/05/09/avatar-3_Z5RHxgD.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.googleplus.com",
+        "created_date": "2023-05-09T16:12:20.628"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2023/05/09/avatar-4.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.googleplus.com",
+        "created_date": "2023-05-09T16:13:11.819"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Jhon",
+        "last_name": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2023/05/09/avatar-12_buDWMMu.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "twitter_link": "https://www.twitter.com",
+        "google_plus_link": "https://www.googleplus.com",
+        "created_date": "2023-05-09T16:30:46.117"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Cristiano",
+        "last_name": "Ronaldo",
+        "car_id": 3,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "Austin",
+        "state": "bagmati",
+        "email": "ranjanthapa141@gmail.com",
+        "phone": "9808153572",
+        "message": "fkjaslkjflkaslkfjs",
+        "user_id": 9,
+        "create_date": "2023-05-16T14:50:03.216"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 6,
+    "fields": {
+        "first_name": "Cristiano",
+        "last_name": "Ronaldo",
+        "car_id": 4,
+        "customer_need": "I'd like a history report for this",
+        "car_title": "2017 Jaguar F-PACE",
+        "city": "Austin",
+        "state": "bagmati",
+        "email": "ronaldo07@gmail.com",
+        "phone": "9808153572",
+        "message": "i am interested to buy please contact me ",
+        "user_id": 9,
+        "create_date": "2023-05-16T14:53:22.141"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 7,
+    "fields": {
+        "first_name": "Ranjan",
+        "last_name": "Thapa",
+        "car_id": 3,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "Ohio",
+        "state": "bagmati",
+        "email": "ranjanthapa.750@gmail.com",
+        "phone": "9808153572",
+        "message": "i want to buy the car ",
+        "user_id": 10,
+        "create_date": "2023-05-16T15:36:00.489"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 8,
+    "fields": {
+        "first_name": "Ranjan",
+        "last_name": "Thapa",
+        "car_id": 4,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Jaguar F-PACE",
+        "city": "Ohio",
+        "state": "bagmati",
+        "email": "ranjanthapa.750@gmail.com",
+        "phone": "9808153572",
+        "message": "i want to buy the car\r\n",
+        "user_id": 10,
+        "create_date": "2023-05-16T15:42:23.937"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$aQCFByt5aCtS$hkBLawZgHg2IM7NZ/n5pD2fuazEDbFBUBo39V4jc7C8=",
+        "last_login": "2023-05-16T15:34:20",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "",
+        "last_name": "",
+        "email": "leothapa101@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-15T08:06:16",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$pfOm4bagEd1L$6Lstu1zozwfz7jWuFGsG83Si0Jud+25SzPIC3XktjPw=",
+        "last_login": "2023-05-16T14:49:25.483",
+        "is_superuser": false,
+        "username": "ronaldo",
+        "first_name": "Cristiano",
+        "last_name": "Ronaldo",
+        "email": "ronaldo07@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-15T08:07:10.110",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!OvHuVTLwCDjTP8Re2ZgF5OaLdLZPkNtt45EzRZxd",
+        "last_login": "2023-05-16T15:35:34.801",
+        "is_superuser": false,
+        "username": "ranjan",
+        "first_name": "Ranjan",
+        "last_name": "Thapa",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-15T09:10:01.299",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!EtxZ01Aa9MRtojrkX7dUKvPXscHpu0KQqmMhQWzp",
+        "last_login": "2023-05-15T09:35:25.316",
+        "is_superuser": false,
+        "username": "jr.",
+        "first_name": "Jr.",
+        "last_name": "Messi",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-15T09:35:25.278",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2yv8pvgr5j9mu37ilewqod5rninse13i",
+    "fields": {
+        "session_data": "NWE3MGVkMjIxYzVjNWYyYmYxNGVlNWVmNDYwYjNmYTE3MWEyMjFiMjp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwiTml0MkxLUk9yRVZIIl19",
+        "expire_date": "2023-05-29T09:07:22.295"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook Login",
+        "client_id": "629896982361516",
+        "secret": "00595365d9cb8a8dac92827d20eb3874",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "794974683399-ufh2rt6otrgnke4geldgv8ae5bvo52qk.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "ranjan"
+        ],
+        "provider": "facebook",
+        "uid": "3306633209646898",
+        "last_login": "2023-05-16T15:35:34.784",
+        "date_joined": "2023-05-15T09:10:01.325",
+        "extra_data": "{\"id\": \"3306633209646898\", \"name\": \"Ranjan Thapa\", \"first_name\": \"Ranjan\", \"last_name\": \"Thapa\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "jr."
+        ],
+        "provider": "google",
+        "uid": "107837816637401043382",
+        "last_login": "2023-05-15T09:35:25.298",
+        "date_joined": "2023-05-15T09:35:25.298",
+        "extra_data": "{\"iss\": \"https://accounts.google.com\", \"azp\": \"794974683399-ufh2rt6otrgnke4geldgv8ae5bvo52qk.apps.googleusercontent.com\", \"aud\": \"794974683399-ufh2rt6otrgnke4geldgv8ae5bvo52qk.apps.googleusercontent.com\", \"sub\": \"107837816637401043382\", \"at_hash\": \"Cbm-_zJzc3OB9JJ941hRqQ\", \"name\": \"Jr. Messi\", \"picture\": \"https://lh3.googleusercontent.com/a/AGNmyxbfbY7P6UyCM2PtQcTzR_ASmMY1TrP39Lh6CuHH=s96-c\", \"given_name\": \"Jr.\", \"family_name\": \"Messi\", \"locale\": \"en-GB\", \"iat\": 1684122623, \"exp\": 1684126223}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-05-15T08:06:38.238",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "messi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-05-15T08:06:38.241",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "ronaldo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-05-15T09:01:12.856",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-05-15T09:02:08.455",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8080",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-05-15T09:02:23.519",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-05-15T09:33:53.182",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-05-16T14:48:52.451",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "4",
+        "object_repr": "ronaldo07@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-05-16T14:48:52.461",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "3",
+        "object_repr": "ronaldo07@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-05-16T14:48:52.462",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "ronaldo07@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-05-16T14:48:52.463",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "ranjanthapa.750@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-05-16T15:34:41.425",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+}
+]
