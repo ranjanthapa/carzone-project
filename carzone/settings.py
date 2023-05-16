@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'cars.apps.CarsConfig',
     "pages.apps.PagesConfig",
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -143,5 +144,14 @@ MESSAGE_TAGS = {
     messages.ERROR: "danger",
 }
 
+
 SITE_ID = 1
 LOGIN_REDIRECT_URL = 'dashboard'
+
+# EMAIL
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "leothapa101@gmail.com"
+EMAIL_HOST_PASSWORD = '1011drillthew@y1930!'
+EMAIL_USE_TLS = True
